@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Curriculum Area 1 — Art</title>
+
+  <!-- Page-specific CSS (art.css) -->
+  <style>
+    /* art.css - styles for the Art page */
+    :root{
+      --page-bg: #d7f0ff; /* light blue */
+      --card-bg: #ffffff;
+      --accent: #1fa3d8;
+      --muted: #5b6b78;
+      --radius: 12px;
+      --max-width: 900px;
+      --comfortable-line: 1.65;
+      --heading-font: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    html,body{
+      height:100%;
+      margin:0;
+      font-family: var(--heading-font);
+      background-color: var(--page-bg);
+      color:#123;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    .page-wrap{
+      min-height:100vh;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding:48px 20px;
+      box-sizing:border-box;
+    }
+
+    .card{
+      background:var(--card-bg);
+      max-width:var(--max-width);
+      width:100%;
+      border-radius:var(--radius);
+      box-shadow:0 10px 30px rgba(18,34,56,0.08);
+      padding:34px;
+      box-sizing:border-box;
+    }
+
+    .hero{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      margin-bottom:18px;
+    }
+
+    .icon-wrap{
+      min-width:86px;
+      min-height:86px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:14px;
+      background:linear-gradient(135deg, rgba(31,163,216,0.12), rgba(31,163,216,0.06));
+      font-size:40px;
+      color:var(--accent);
+      box-shadow:0 6px 18px rgba(31,163,216,0.08) inset;
+    }
+
+    h1{margin:0;font-size:28px;color:#0b4e67}
+    h2{margin-top:26px;color:#0b4e67}
+
+    .meta{color:var(--muted);margin-top:8px;font-size:14px}
+
+    p{line-height:var(--comfortable-line);color:#163244}
+
+    section{margin-top:18px}
+
+    ul{margin:8px 0 0 18px;color:#163244}
+    li{margin:8px 0}
+
+    .age-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+      gap:14px;
+      margin-top:12px;
+    }
+
+    .age-card{
+      background:#f7fbff;
+      border-radius:10px;
+      padding:12px 14px;
+      border:1px solid rgba(18,34,56,0.04);
+    }
+
+    .cta{
+      margin-top:22px;
+      display:flex;
+      gap:12px;
+      align-items:center;
+      justify-content:flex-end;
+    }
+
+    .btn{
+      background:var(--accent);
+      color:#fff;
+      padding:10px 16px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+      box-shadow:0 6px 18px rgba(31,163,216,0.12);
+    }
+
+    .note{font-size:13px;color:var(--muted);margin-top:10px}
+
+    /* Responsive tweaks */
+    @media (max-width:640px){
+      .hero{flex-direction:column;align-items:flex-start}
+      .icon-wrap{min-width:64px;min-height:64px;font-size:32px}
+      h1{font-size:22px}
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+    <article class="card" role="main">
+      <div class="hero">
+        <div class="icon-wrap" aria-hidden="true">🎨</div>
+        <div>
+          <h1>Curriculum Area 1: Art</h1>
+          <div class="meta">Introduction and Importance · Learning experiences · Resources · Reflection</div>
+        </div>
+      </div>
+
+      <section>
+        <h2>Introduction and Importance</h2>
+        <p>
+          Art enables young children to share thoughts and feelings, as well as experiences using senses and sight. It enhances fine motor abilities, spatial abilities and emotional intelligence. Artistic activities foster various approaches to thinking, taking risks, and solving problems, which are all important aspects of creativity (Alghufali, 2024). In the EYLF v2.0, art is used to address Outcome 4: Children are confident and involved learners, including imagination and experimentation (AGDE, 2023). The experiences of art enable children to relate emotion, thought, and identity, which offers a broad spectrum of learners the opportunity to express their distinct views in an artistic manner.
+        </p>
+      </section>
+
+      <section>
+        <h2>Creativity Theories and Perspectives</h2>
+        <p>
+          Art is consistent with constructivist and sociocultural theories that emphasise creativity as a continuously changing discovery. Vygotsky hypothesised that creative play and art development support the development of higher mental processes in the form of social interaction and cultural instruments. The recent studies support the claim that creative art experiences engage several brain systems, which are associated with emotion and thinking mechanisms (Kleibeuker et al., 2016). The multiple intelligences theory proposed by Gardner supports the idea that children are able to be creative in visual and spatial ways. The system model of creativity perceives the classroom, interaction with peers, and the guidance that the educator provides to the child as a part of the child's creative outcomes (Ghanamah et al., 2025).
+        </p>
+      </section>
+
+      <section>
+        <h2>Resources, Materials, and Digital Technologies</h2>
+        <p>
+          Instructors are encouraged to use open-ended resources such as paint, clay, collage, recycled ones (leaves, sticks, shells), and natural materials (leaves, sticks, shells) which can be experimented with. Digital tools also extend expression in apps such as Procreate, Sketchbook, or ArtRage, in which children can draw, combine colours, and apply textures. In collaboration and reflection, projectors, document cameras, and digital portfolios are in place. Gross-motor painting is promoted with the help of large canvases or vertical easels, whereas the integration of music improves the sense of involvement. Resources should be accessible, inclusive, and sustainable to facilitate autonomy and creative freedom (Creative Approaches towards Inclusive STEM Learning, 2025).
+        </p>
+      </section>
+
+      <section>
+        <h2>Learning Experiences</h2>
+
+        <div class="age-grid">
+          <div class="age-card">
+            <strong>0–2 years</strong>
+            <ul>
+              <li><strong>Finger Paint Exploration</strong> – Infants use edible paint to explore texture and colour. Educators describe movements and patterns, supporting sensory integration and creative agency (AGDE, 2023).</li>
+              <li><strong>Tactile Collage</strong> – Toddlers stick soft and rough materials (felt, leaves, foil) to paper, discovering texture and contrast, encouraging curiosity and sensory creativity (Alghufali, 2024).</li>
+            </ul>
+          </div>
+
+          <div class="age-card">
+            <strong>2–3 years</strong>
+            <ul>
+              <li><strong>Clay Pattern Pressing</strong> – Children press natural items into clay, observing impressions and patterns. Teachers prompt reflection with “What happens if you push harder?” (Promoting Creativity, 2023).</li>
+              <li><strong>Digital Drawing Play</strong> – Using tablets, children doodle with styluses, experimenting with colour and shape while developing fine-motor and digital literacy (Creative Approaches, 2025).</li>
+            </ul>
+          </div>
+
+          <div class="age-card">
+            <strong>3–5 years</strong>
+            <ul>
+              <li><strong>Nature Collage Stories</strong> – Children collect outdoor items to create collages and narrate their story, integrating visual art and language (AGDE, 2023).</li>
+              <li><strong>Emotion Painting</strong> – Children use colours to represent feelings, linking art to emotional awareness and creative expression (Ghanamah et al., 2025).</li>
+            </ul>
+          </div>
+
+          <div class="age-card">
+            <strong>6–8 years</strong>
+            <ul>
+              <li><strong>Perspective Sketching</strong> – Students draw an object from different angles and merge them into one design, promoting spatial reasoning and problem-solving (Alghufali, 2024).</li>
+              <li><strong>Community Mural Project</strong> – Groups plan, sketch, and paint a mural symbolizing shared values, fostering collaboration and collective creativity (Creative Approaches, 2025).</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Reflection and Evaluation – Art</h2>
+        <p>
+          The art enactment was effective in involving all age group children in open-ended experiences which were sensory rich. The exploration, creativity, and environmental awareness were promoted by the use of natural and recycled materials. There was also significant intrinsic motivation, curiosity, and persistence among children, which support the conclusions that artistic experiences support creative problem-solving and emotional development of children (Alghufali, 2024). Digital art application integration enhanced the forms of expression by children and inclusive involvement, which fit the EYLF v2.0 Outcome 4: Children are confident and involved learners (Australian Government Department of Education [AGDE], 2023).
+        </p>
+
+        <p>
+          Two aspects that were particularly successful were (1) the willingness of the children to take creative risks and (2) collaboration with peers in the community mural project. But time pressure did not allow reflection and sharing, which are essential to metacognition and more productive creativity (Kleibeuker et al., 2016). Other children were also required to be more assisted in using the digital tools.
+        </p>
+
+        <p>
+          In case of a repetition, I would also add in the form of structured reflection after every session, where the children can discuss their creative choice and record the process through photographs or voice recordings. I would also introduce small group rotations so that there is fair access to digital devices. Such changes would enhance the creative agency, reflective capacity and continued enquiry into art by children.
+        </p>
+
+      </section>
+
+      <div class="cta">
+        <a class="btn" href="./index.html">Back to Curriculum</a>
+        <a class="btn" href="https://youtu.be/vLTWNDlFMkc?si=VYomjyebNgnUFYM2">Youtube video
+        </a>
+        
+      </div>
+
+      </div>
+    </article>
+  </div>
+</body>
+</html>
