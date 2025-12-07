@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Curriculum Area 7 — Technologies</title>
+
+  <!-- Page-specific CSS (technologies.css) -->
+  <style>
+    /* technologies.css - styles for the Technologies page */
+    :root{
+      --page-bg: #ffd7d7;   /* red themed pastel background */
+      --card-bg: #ffffff;
+      --accent: #c62828;    /* deep red primary */
+      --muted: #6b3a3a;
+      --radius: 12px;
+      --max-width: 900px;
+      --comfortable-line: 1.65;
+      --heading-font: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    html,body{
+      height:100%;
+      margin:0;
+      font-family: var(--heading-font);
+      background-color: var(--page-bg);
+      color:#2a0d0d;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    .page-wrap{
+      min-height:100vh;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding:48px 20px;
+      box-sizing:border-box;
+    }
+
+    .card{
+      background:var(--card-bg);
+      max-width:var(--max-width);
+      width:100%;
+      border-radius:var(--radius);
+      box-shadow:0 10px 30px rgba(128,0,0,0.15);
+      padding:34px;
+      box-sizing:border-box;
+    }
+
+    .hero{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      margin-bottom:18px;
+    }
+
+    .icon-wrap{
+      min-width:86px;
+      min-height:86px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:14px;
+      background:linear-gradient(135deg, rgba(198,40,40,0.16), rgba(198,40,40,0.08));
+      font-size:40px;
+      color:var(--accent);
+      box-shadow:0 6px 18px rgba(198,40,40,0.26) inset;
+    }
+
+    h1{margin:0;font-size:28px;color:#7c1414}
+    h2{margin-top:26px;color:#7c1414}
+
+    .meta{color:var(--muted);margin-top:8px;font-size:14px}
+
+    p{line-height:var(--comfortable-line);color:#3b1515}
+
+    section{margin-top:18px}
+
+    ul{margin:8px 0 0 18px;color:#3b1515}
+    li{margin:8px 0}
+
+    .age-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+      gap:14px;
+      margin-top:12px;
+    }
+
+    .age-card{
+      background:#ffeaea;
+      border-radius:10px;
+      padding:12px 14px;
+      border:1px solid rgba(128,0,0,0.1);
+    }
+
+    .cta{
+      margin-top:22px;
+      display:flex;
+      gap:12px;
+      align-items:center;
+      justify-content:flex-end;
+    }
+
+    .btn{
+      background:var(--accent);
+      color:#fff;
+      padding:10px 16px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+      box-shadow:0 6px 18px rgba(198,40,40,0.28);
+    }
+
+    @media (max-width:640px){
+      .hero{flex-direction:column;align-items:flex-start}
+      .icon-wrap{min-width:64px;min-height:64px;font-size:32px}
+      h1{font-size:22px}
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+    <article class="card" role="main">
+
+      <div class="hero">
+        <div class="icon-wrap" aria-hidden="true">💻</div>
+        <div>
+          <h1>Curriculum Area 7: Technologies</h1>
+          <div class="meta">Introduction · Theories · Resources · Learning experiences · Reflection</div>
+        </div>
+      </div>
+
+      <section>
+        <h2>Introduction and Importance</h2>
+        <p>
+          Digital and design technologies can facilitate exploration, creation, communication, and problem-solving by children with the help of interactive and multimodal tools. The use of technology in early childhood must be deliberate, participatory and imaginative, for example: digital storytelling, coding, drawing, photography and documentation. EYLF v2.0 emphasises the application of technologies in communication and expression of creativity (AGDE, 2022). Properly implemented, technology enables the children to create digital arts, write programmes, construct animations, and cooperate with other students. Technology is an important part of modern creative learning, as digital tools can enhance people's creative potential and teach children the basic digital skills that they will require once the future shows itself.
+        </p>
+      </section>
+
+      <section>
+        <h2>Creativity Theories and Perspectives</h2>
+        <p>
+          The sociocultural theory created by Vygotsky facilitates creative learning via the use of digital collaboration and co-use of tools. Constructivist views can emphasise the communal usage of technological devices by children, who will develop knowledge through play. Several intelligences, including multiple intelligences proposed by Gardner, are also manifested in visual-spatial, linguistic and logical-mathematical creativity that are made possible by digital media. The improvisational creativity of Sawyer is seen in coding and digital storytelling whereby children repeatedly develop ideas. Digital writing is a research topic, and it can be described in the following way (Zhao, 2020): technology facilitates multimodal creativity because it enables children to integrate audio, text, images, and movement. Technology is thus a stimulus in divergent thought and creative expression.
+        </p>
+      </section>
+
+      <section>
+        <h2>Resources, Materials, and Digital Technologies</h2>
+        <p>
+          Tablets, Bee-Bots, programmable robots, drawing applications (Procreate, Sketchbook), coding (ScratchJr, Kodable), cameras, green screens, and voice recorders can be used by teachers. Interactive whiteboards and photo editing tools alongside basic circuit kits can be used to explore digitally in different ways. Younger children participate in imaginary technological play with the assistance of low-tech props (keyboards, pretend machines). Reflection has been assisted with digital portfolios and photo documentation. Technologies must be developmental and accessible so that children of all technologies have an opportunity to create, explore, and communicate on a digital level.
+        </p>
+      </section>
+
+      <section>
+        <h2>Learning Experiences</h2>
+
+        <div class="age-grid">
+
+          <div class="age-card">
+            <strong>0–2 years</strong>
+            <ul>
+              <li><strong>Digital Sensory Board</strong> – Infants press through the colourful touch-responsive apps, building initial digital perceptions and digital sensory experience using interactive play (AGDE, 2022).</li>
+              <li><strong>Photo Peekaboo</strong> – Teachers capture photos and present infants with their pictures, creating interest, familiarity, and a preliminary digital presence (Bodrova and Leong, 2015).</li>
+            </ul>
+          </div>
+
+          <div class="age-card">
+            <strong>2–3 years</strong>
+            <ul>
+              <li><strong>Tablet Mark-Making</strong> – Children create lines, shapes and simple marks in beginner-friendly applications and experiment with creativity using early digital technologies (Zhao, 2020).</li>
+              <li><strong>Robot Follow Game</strong> – Children interact with simple robots by pressing their directional buttons and learning cause-and-effect with an engaging experimentation of a foundation of early coding logic (Ghanamah, 2025).</li>
+            </ul>
+          </div>
+
+          <div class="age-card">
+            <strong>3–5 years</strong>
+            <ul>
+              <li><strong>Green Screen Storytelling</strong> – Kids are asked to play out scenes as digital backgrounds are incorporated, and imagination, performance, and digital storytelling are combined to be presented in a creative way (Sawyer, 2023).</li>
+              <li><strong>ScratchJr Animation</strong> – Children will develop simple digital animations in block code, building sequencing, creativity and foundational skills in computational thinking (Promoting Creativity, 2023).</li>
+            </ul>
+          </div>
+
+          <div class="age-card">
+            <strong>6–8 years</strong>
+            <ul>
+              <li><strong>Photo Documentary Project</strong> – Students make photographs and build online books, sharing ideas in a creative manner and becoming digitally literate and skilled storytellers (Kleibeuker et al., 2016).</li>
+              <li><strong>Introduction to Robotics Tasks</strong> – Students create and execute coded programmes to direct robots to navigate mazes, enhancing problem-solving and computational creativity (Atikah & Biru, 2024).</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <section>
+        <h2>Reflection and Evaluation – Technologies</h2>
+        <p>
+          Enactments of technologies were good to encourage creativity, communication, and solving digital problems. One of the strengths was that children were interested in digital storytelling, especially green screen work. Children were able to share complex stories with backgrounds and props to confirm that digital tools are more effective in facilitating multimodal creativity (Zhao, 2020). The coding tasks, which saw the experimentation with sequencing, prediction of results, and manifested flexible thinking and iterative thinking, corroborated the research on computational creativity.
+        </p>
+
+        <p>
+          Nevertheless, there were certain challenges noted. The younger children at times tapped without a clear investigation, which shows that they should be more clearly shaped in how to tap. Coding blocks were sometimes rushed through by older children, thus resulting in errors that brought about frustrations.
+        </p>
+
+        <p>
+          To repeat the experience, I would start with demonstrations of each of the tools explicitly and set up planning cards when using ScratchJr or robotics activities. The combination of technology and the use of physical prop-robot direction cards would also be a good idea before writing the digitally coded movements. I would add some brief show-and-explain statements to enhance the process of reflection, during which children explain what they made and why. Such improvements would enhance the level of digital literacy, creativity, and unbiased utilisation of technological resources.
+        </p>
+      </section>
+
+      <div class="cta">
+        <a class="btn" href="./index.html">Back to Curriculum</a>
+        <a class="btn" href="https://youtu.be/7l6O313a2vg?si=dMqcbMvxzkjOJ9rk">Youtube video</a>
+      </div>
+
+    </article>
+  </div>
+</body>
+</html>

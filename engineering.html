@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Curriculum Area 6 — Engineering</title>
+
+  <!-- Page-specific CSS (engineering.css) -->
+  <style>
+    /* engineering.css - styles for the Engineering page */
+    :root{
+      --page-bg: #d7ecff;   /* sky blue background */
+      --card-bg: #ffffff;
+      --accent: #1e88e5;    /* blue accent */
+      --muted: #4a6378;
+      --radius: 12px;
+      --max-width: 900px;
+      --comfortable-line: 1.65;
+      --heading-font: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    html,body{
+      height:100%;
+      margin:0;
+      font-family: var(--heading-font);
+      background-color: var(--page-bg);
+      color:#123046;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    .page-wrap{
+      min-height:100vh;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding:48px 20px;
+      box-sizing:border-box;
+    }
+
+    .card{
+      background:var(--card-bg);
+      max-width:var(--max-width);
+      width:100%;
+      border-radius:var(--radius);
+      box-shadow:0 10px 30px rgba(18,56,88,0.14);
+      padding:34px;
+      box-sizing:border-box;
+    }
+
+    .hero{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      margin-bottom:18px;
+    }
+
+    .icon-wrap{
+      min-width:86px;
+      min-height:86px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:14px;
+      background:linear-gradient(135deg, rgba(30,136,229,0.18), rgba(30,136,229,0.08));
+      font-size:40px;
+      color:var(--accent);
+      box-shadow:0 6px 18px rgba(30,136,229,0.22) inset;
+    }
+
+    h1{margin:0;font-size:28px;color:#0f4c7a}
+    h2{margin-top:26px;color:#0f4c7a}
+
+    .meta{color:var(--muted);margin-top:8px;font-size:14px}
+
+    p{line-height:var(--comfortable-line);color:#193445}
+
+    section{margin-top:18px}
+
+    ul{margin:8px 0 0 18px;color:#1d3647}
+    li{margin:8px 0}
+
+    .age-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+      gap:14px;
+      margin-top:12px;
+    }
+
+    .age-card{
+      background:#eef7ff;
+      border-radius:10px;
+      padding:12px 14px;
+      border:1px solid rgba(18,56,88,0.1);
+    }
+
+    .cta{
+      margin-top:22px;
+      display:flex;
+      gap:12px;
+      align-items:center;
+      justify-content:flex-end;
+    }
+
+    .btn{
+      background:var(--accent);
+      color:#fff;
+      padding:10px 16px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+      box-shadow:0 6px 18px rgba(30,136,229,0.24);
+    }
+
+    .note{font-size:13px;color:var(--muted);margin-top:10px}
+
+    @media (max-width:640px){
+      .hero{flex-direction:column;align-items:flex-start}
+      .icon-wrap{min-width:64px;min-height:64px;font-size:32px}
+      h1{font-size:22px}
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+    <article class="card" role="main">
+      <div class="hero">
+        <div class="icon-wrap" aria-hidden="true">⚙️</div>
+        <div>
+          <h1>Curriculum Area 6: Engineering</h1>
+          <div class="meta">Introduction · Theories · Resources · Learning experiences · Reflection</div>
+        </div>
+      </div>
+
+      <section>
+        <h2>Introduction and Importance</h2>
+        <p>
+          Early childhood engineering promotes creativity, as it helps children to design, build, explore ideas, and solve real-life problems with actual materials. Space thinking, perseverance, and creative thinking are all built up by children as they create, apply tinkering, and help in constructing structures. The EYLF v2.0 emphasises inquiry, experimentation, and problem-solving as a part of children becoming confident learners (AGDE, 2022). Engineering activities, similar to bridge building, ramp testing, and recycled building, enable children to work on materials, learn cause and effect, and be creative in design. Those opportunities develop a resistance to stress and ability to think flexibly and allow children to consider themselves as capable creators and solvers of problems in real, practical situations.
+        </p>
+      </section>
+
+      <section>
+        <h2>Creativity Theories and Perspectives</h2>
+        <p>
+          The field of engineering is similar to Piaget's constructivism, in which children develop their knowledge by doing things and experimenting. The sociocultural theory as developed by Vygotsky emphasises the cooperative aspect of the engineering tasks wherein the dialogue and mutual problem-solving carry on the cognitive development. The improvisational creativity is seen in Sawyer in the engineering play when children update designs based on the feedback and the suggestions of peers. The theories of divergent thinking are used to underpin the notion that engineering brings about a flexible problem-solving approach due to the existence of numerous potential solutions. An initial study on STEAM (Atikah & Biru, 2024) highlights that in the field of engineering, design thinking, tinkering, and trial-and-error develop creativity. Such points of view present engineering as a vital avenue to develop imagination.
+        </p>
+      </section>
+
+      <section>
+        <h2>Resources, Materials, and Digital Technologies</h2>
+        <p>
+          Among the supplies teachers could provide were some blocks, DUPLO, recyclables, cardboard tubes, connectors, loose parts, natural materials, ramps, gears and basic tools. Synthetic screwdrivers, pulleys, and building kits are child safe and enhance engineering exploration in the real world. The digital technologies Bee Bots, Tinkercad, simplified slow-motion apps, and engineering problem videos are used to assist children in planning, visualising, and assessing structures. Tablets enable the children to capture pictures and record videos that reflect their design process; however, this supports the reflective creativity. The materials must be open-enclosed, available, and flexible to give the children the opportunity of building, deconstructing, designing, and creatively solving the problems in engineering.
+        </p>
+      </section>
+
+      <section>
+        <h2>Learning Experiences</h2>
+
+        <div class="age-grid">
+          <div class="age-card">
+            <strong>0–2 years</strong>
+            <ul>
+              <li><strong>Stacking of Soft Blocks</strong> - Infants Use soft blocks to experiment with balance, gravity and simple cause-effect by playing early engineering (AGDE, 2022).</li>
+              <li><strong>Push-and-Roll Ramps</strong> – Infants roll balls down the soft ramps and witness the movement, direction, and early physics by playing a game (Bodrova & Leong, 2015).</li>
+            </ul>
+          </div>
+
+          <div class="age-card">
+            <strong>2–3 years</strong>
+            <ul>
+              <li><strong>Simple Bridge Building</strong> – Children construct small toy bridges using DUPLO and experiment with their strengths using toy cars to develop structural knowledge (Promoting Creativity, 2023).</li>
+              <li><strong>Tube-and-Ball Pathways</strong> – Each kid gets acquainted with the overall concept of ball movement in angled tubes and discovers the principles of the slope, pace, and elementary engineering cause-and-effect (Ghanamah, 2025).</li>
+            </ul>
+          </div>
+
+          <div class="age-card">
+            <strong>3–5 years</strong>
+            <ul>
+              <li><strong>Recycled-Box Construction</strong> – Children create and design creative structures out of recycled boxes and tape and learn to be creative and engineer confidence (AGDE, 2022).</li>
+              <li><strong>Fan-and-Feather Engineering</strong> – Kids experiment with the airflow in feathers, redesigning work to enhance their ability to fly, stimulating the use of iteration (Atikah & Biru, 2024).</li>
+            </ul>
+          </div>
+
+          <div class="age-card">
+            <strong>6–8 years</strong>
+            <ul>
+              <li><strong>Paper Tower Challenge</strong> – The students create tall paper structures by using paper and only tape, experimenting with stability, strength and creativity of construction (Kleibeuker et al., 2016).</li>
+              <li><strong>Bee-Bot Obstacle Course</strong> – The students will create obstacle courses and control the Bee-Bots to go through them, developing sequencing and engineering logic (Sawyer, 2023).</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Reflection and Evaluation – Engineering</h2>
+        <p>
+          The engineering enactments were effective in creating creativity, innovation, problem-solving, and resilience among young learners. An element that was effective was the persistence of the children in redesigning their designs, particularly in the bridge-building as well as the paper tower. Numerous ideas they would be willing to explore confirm the research indicating that engineering facilitates a corroborative creative approach (Atikah & Biru, 2024). Another advantage was communal interaction; the children bargained on the ideas, shared resources and jointly created structures, which correlates with the Vygotskian views of social learning.
+        </p>
+
+        <p>
+          Nonetheless, certain difficulties were experienced. Some children became frustrated when constructions fell, and it demonstrated that these children needed emotional scaffolding. Also, not all older children could plan steps throughout the Bee-Bot task, and more definite modelling was required.
+        </p>
+
+        <p>
+          When repeating the experience, I would start with a smaller demonstration that allows children to see collapse as a learning experience and that it is a part of engineering. I would also add the visual planning sheet when working with Bee-Bot in order to promote sequencing. I would also introduce a design journal where the children could draw or take pictures of their structures; this would encourage metacognition and reflection on creative thought. These would improve the resilience of children, their confidence level, and their greater knowledge about the engineering design cycle.
+        </p>
+      </section>
+
+      <div class="cta">
+        <a class="btn" href="./index.html">Back to Curriculum</a>
+        <!-- Replace with relevant engineering activity video later -->
+        <a class="btn" href="https://youtu.be/nA8Y0FeKzII?si=LGUg-317NXhQA4H0">Youtube video</a>
+      </div>
+
+    </article>
+  </div>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Curriculum Area 5 — Science</title>
+
+  <!-- Page-specific CSS (science.css) -->
+  <style>
+    /* science.css - styles for the Science page */
+    :root{
+      --page-bg: #d9ffdd;   /* parrot green theme */
+      --card-bg: #ffffff;
+      --accent: #34a853;    /* green accent */
+      --muted: #47634f;
+      --radius: 12px;
+      --max-width: 900px;
+      --comfortable-line: 1.65;
+      --heading-font: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    html,body{
+      height:100%;
+      margin:0;
+      font-family: var(--heading-font);
+      background-color: var(--page-bg);
+      color:#102a17;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    .page-wrap{
+      min-height:100vh;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding:48px 20px;
+      box-sizing:border-box;
+    }
+
+    .card{
+      background:var(--card-bg);
+      max-width:var(--max-width);
+      width:100%;
+      border-radius:var(--radius);
+      box-shadow:0 10px 30px rgba(18,100,36,0.14);
+      padding:34px;
+      box-sizing:border-box;
+    }
+
+    .hero{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      margin-bottom:18px;
+    }
+
+    .icon-wrap{
+      min-width:86px;
+      min-height:86px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:14px;
+      background:linear-gradient(135deg, rgba(52,168,83,0.18), rgba(52,168,83,0.08));
+      font-size:40px;
+      color:var(--accent);
+      box-shadow:0 6px 18px rgba(52,168,83,0.22) inset;
+    }
+
+    h1{margin:0;font-size:28px;color:#145d2d}
+    h2{margin-top:26px;color:#145d2d}
+
+    .meta{color:var(--muted);margin-top:8px;font-size:14px}
+
+    p{line-height:var(--comfortable-line);color:#1a3c25}
+
+    section{margin-top:18px}
+
+    ul{margin:8px 0 0 18px;color:#1a3c25}
+    li{margin:8px 0}
+
+    .age-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+      gap:14px;
+      margin-top:12px;
+    }
+
+    .age-card{
+      background:#edffee;
+      border-radius:10px;
+      padding:12px 14px;
+      border:1px solid rgba(18,100,36,0.1);
+    }
+
+    .cta{
+      margin-top:22px;
+      display:flex;
+      gap:12px;
+      align-items:center;
+      justify-content:flex-end;
+    }
+
+    .btn{
+      background:var(--accent);
+      color:#fff;
+      padding:10px 16px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+      box-shadow:0 6px 18px rgba(52,168,83,0.24);
+    }
+
+    .note{font-size:13px;color:var(--muted);margin-top:10px}
+
+    /* Responsive tweaks */
+    @media (max-width:640px){
+      .hero{flex-direction:column;align-items:flex-start}
+      .icon-wrap{min-width:64px;min-height:64px;font-size:32px}
+      h1{font-size:22px}
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+    <article class="card" role="main">
+      <div class="hero">
+        <div class="icon-wrap" aria-hidden="true">🔬</div>
+        <div>
+          <h1>Curriculum Area 5: Science</h1>
+          <div class="meta">Introduction · Theories · Resources · Learning experiences · Reflection</div>
+        </div>
+      </div>
+
+      <section>
+        <h2>Introduction and Importance</h2>
+        <p>
+          Science nurtures creativity in that it helps children to enquire, enquire, speculate and logically explain what they see around them. Experimentation facilitates curiosity, problem-solving, and flexibility of thinking. The fourth outcome of EYLF emphasises inquiry-based learning, in which children read, test premises, and compare the results (AGDE, 2022). Scientific exploration helps children to deduce, narrate, and convey ideas in various forms like drawings, models, or oral accounts through practical scientific exploration. Science helps children to create innovative thoughts in the sense of experimenting with variables, observing patterns and coming up with explanations. Creative inquiry encourages children to be curious and speculative and think critically when making a discovery.
+        </p>
+      </section>
+
+      <section>
+        <h2>Creativity Theories and Perspectives</h2>
+        <p>
+          How constructivism views scientific creativity is the perspective that Piaget uses to describe scientific development in children, where they construct knowledge based on trial-and-error. Sociocultural theory introduced by Vygotsky emphasises inquiry as collaboration in meaning-making when common discussion further develops the scientific line of thought. Divergent thinking theory is applicable when the children come up with multiple explanations or predictions. The given quality of Sawyer as a collaborative creative person can be seen through the group experiments where thoughts develop in interactive ways. According to STEM creativity theory, tinkering, experimentation, and problem-solving are approaches toward creative thinking (García-González et al., 2025). Neuroscientific approaches demonstrate that open-ended experimentation triggers flexible cognition and reinforces the neural circuits linked with innovation (Kleibeuker et al., 2016).
+        </p>
+      </section>
+
+      <section>
+        <h2>Resources, Materials, and Digital Technologies</h2>
+        <p>
+          The teachers can bring magnifying glasses, droppers, mirrors, magnets, ramps, torches, natural materials, water play factors and sand trays. Digital microscopes and slow-motion video, Bee-Bots, and programs such as Science Journal assist in documentation and further observation. Outside areas are fertile areas of investigation. Cameras and tablets enable children to capture the results in an artistic way by either taking photos or videos. The materials used must be safe, open-ended, inclusive, and developmentally appropriate in order to foster experimentation and sensory exploration among the age groups.
+        </p>
+      </section>
+
+      <section>
+        <h2>Learning Experiences</h2>
+
+        <div class="age-grid">
+          <div class="age-card">
+            <strong>0–2 years</strong>
+            <ul>
+              <li><strong>Water Splash Science</strong> – Children are introduced to warm and cold water and simple cause and effect by pouring, splashing and gentle movement (AGDE, 2022).</li>
+              <li><strong>Light and Shadow Play</strong> – Babies observe moving shadows when using torches and acquire various early scientific interests and the ability to explore visually (Luen, 2021).</li>
+            </ul>
+          </div>
+
+          <div class="age-card">
+            <strong>2–3 years</strong>
+            <ul>
+              <li><strong>Magnet Discovery Tray</strong> – Children choose different materials on a tray with magnets and explore the differences in their magnetism (Promoting Creativity, 2023).</li>
+              <li><strong>Sink or Float Play</strong> – Children make predictions and experiments around whether things are sinkable and floatable, and they are taught about early hypothesis and investigation (Ghanamah, 2025).</li>
+            </ul>
+          </div>
+
+          <div class="age-card">
+            <strong>3–5 years</strong>
+            <ul>
+              <li><strong>Minibeast Investigation</strong> – Students consider the insects through the help of magnifiers, drawing notes and becoming interested in life forms and nature (AGDE, 2022).</li>
+              <li><strong>Volcano Experiment</strong> – Children make baking-soda volcanoes, make predictions, record observations, and talk about cause-and-effect processes of science (Creative Approaches, 2025).</li>
+            </ul>
+          </div>
+
+          <div class="age-card">
+            <strong>6–8 years</strong>
+            <ul>
+              <li><strong>Ramp Speed Investigation</strong> – In this exercise, students build ramps of various heights and experiment with object speed, which involves playing with motion, force, and early physics (Kleibeuker et al., 2016).</li>
+              <li><strong>Digital Slow-Motion Science</strong> – Children will film bouncing balls or other similar phenomena in slow motion, creatively exploring movements and patterns of existing scientific phenomena (Sawyer, 2023).</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Reflection and Evaluation – Science</h2>
+        <p>
+          The science enactments were also effective in encouraging enquiry, curiosity and creative problem-solving. The interaction of the children by engaging in hands-on experimentation was one of the successes. Doing either experiments on magnets or learning the basics of a volcano reaction, children were sure about their results and were able to concentrate on their thoughts with either drawings or sound explanations. This is in line with the research that has indicated that open-ended scientific play develops cognitive flexibility and divergent thinking (García-González et al., 2025). The other strength was the use of digital tools, e.g., the use of slow-motion recording, which enabled children to see scientific phenomena which are otherwise hard to observe simply in real time.
+        </p>
+
+        <p>
+          Nevertheless, this was not without obstacles. A few of the children got distracted on more intensive investigational activity, meaning the pacing required to be perfected. Moreover, some young children needed further scaffolding to learn about such concepts as prediction or observation.
+        </p>
+
+        <p>
+          In case of recreating the experiences, I would make the investigation cycles shorter with more obvious visuals (e.g., the predict-test-observe cards) to direct children in their thoughts. I would also implement collaborative science journals where children would be able to draw or photograph their findings, which would aid reflection and metacognition efforts. These reforms would raise awareness among the children of scientific processes and would enhance the effectiveness of promoting scientific inquiry in a creative manner.
+        </p>
+      </section>
+
+      <div class="cta">
+        <a class="btn" href="./index.html">Back to Curriculum</a>
+        <!-- Replace with a relevant science experiment video link later -->
+        <a class="btn" href="https://youtu.be/0VIhrnQXVdY?si=tSSGbgA0Gac8A5BG">Youtube video</a>
+      </div>
+
+    </article>
+  </div>
+</body>
+</html>
